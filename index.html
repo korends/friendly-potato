@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- bootstrap file -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,27 +19,24 @@
 
 <body>
     <!-- THIS IS THE HEADER -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="colcontainer2">
-                <div class="h1container">
-                    <h1>Koren Delos Santos</h1>
-                </div>
-                <!-- Navigation Bar -->
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+
+    <nav class="navbar navbar-custom">
+            <!--added custom-->
+            <div class="container">
+              <h1>Koren Delos Santos</h1>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-        </div>
-    </div>
+          </nav>
     <!-- THIS IS THE MAIN BODY -->
     <!-- Main background image -->
 
@@ -50,14 +48,14 @@
 
                 <!-- This Is The SubRow That Holds "About Me" -->
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <p id="AboutMe-Title">About Me</p>
                     </div>
                 </div>
 
                 <!-- This Is The SubRow that Holds The Horizontal Line -->
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <hr>
                     </div>
                 </div>
@@ -65,31 +63,36 @@
                 <!-- This Is The SubRow That Holds The Profile Picture And Bio -->
                 <div class="row">
                     <!-- This Column Holds The Profile Picture -->
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <img src="assets/images/cat.jpg" alt="Placeholder" class="img-thumbnail" />
                     </div>
 
                     <!-- This Column Holds The Bio -->
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <p class="Bio">
-                            Hello there! My name is Koren. I'm a 26 year-old aspiring web developer in New Jersey. While
+                            Hello there! My name is Koren. I'm a 26 year-old aspiring web developer in New
+                            Jersey.
+                            While
                             taking this web developer boot camp, I am working full time as a Digital Marketing
-                            Coordinator. It's funny I ended up taking up a developer course because I didn't really like
-                            my C++ class in
-                            college. But I chalk that up to the fact that I didn't really like my professor! HA.
+                            Coordinator. It's funny I ended up taking up a developer course because I didn't
+                            really
+                            like
+                            my C++ class in college. But I chalk that up to the fact that I didn't really like
+                            my
+                            professor! HA.
                         </p>
 
                     </div>
 
                     <!-- This Column Holds Part II of Bio -->
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <p class="Bio2">
-                            When I'm not doing homework or learning online, I'm busy doing work for Seedspace, a startup
+                            When I'm not doing homework or learning online, I'm busy doing work for Seedspace, a
+                            startup
                             that Amiel and I are trying to get off the ground. We're currently in the process of
-                            revamping our MVP.
-                            While it's not ready for the public yet, the response has been positive so far! This project
-                            is one of
-                            the biggest reasons why I'm taking this class!
+                            revamping our MVP. While it's not ready for the public yet, the response has been
+                            positive
+                            so far! This project is one of the biggest reasons why I'm taking this class!
                         </p>
                     </div>
                 </div>
@@ -101,7 +104,7 @@
 
         <footer class="footer mt-auto py-3">
             <div class="container">
-                <span class="text-muted">Copyright	&copy;</span>
+                <span class="text-muted">Copyright &copy;</span>
             </div>
         </footer>
 

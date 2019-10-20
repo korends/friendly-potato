@@ -1,7 +1,20 @@
-.colcontainer2 {
+.navbar-custom {
+    background-color: #777;
+}
+
+h1 {
+    color: white;
+    margin-left: 55px;
+}
+
+a {
+    color: white;
+    margin-right: 20px;
+}
+/* .colcontainer2 {
     height: 105px;
     margin: 10px;
-    /* padding: 20px 10px; */
+    padding: 20px 10px;
     background-color: #fff;
     border-bottom: 3px;
     border-bottom-color: #ccc;
@@ -10,26 +23,30 @@
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bolder;
     float: left;
-    padding: 25px 75px;
     text-align: center;
     color: #fff;
+    line-height: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
 }
 
 .h1container {
     float: left;
-    margin-left: 375px;
+    margin-left: 450px;
     background-color:#4aaaa5;
     height: 100px;
 }
 
-.nav {
+.navbar {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float: right;
-    margin: 35px 375px;;
+    margin: 35px 400px;
     color: #777777;
     line-height: 10px;
-}
+} */
 
 /* ABOUT ME CONTAINER */
 
@@ -78,7 +95,7 @@ img {
 
 /* FOOTER */
 
-footer {
+.footer {
     color: #fff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
